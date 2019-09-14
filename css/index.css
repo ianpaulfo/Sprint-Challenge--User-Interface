@@ -66,6 +66,24 @@ p {
     line-height: 1.4;
 }
 
+.navigation {
+    Display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    margin: 15px;
+    margin-left:10%;
+    margin-right: 10%;
+}
+.logo {
+    align-self: center;
+    padding: 10px;
+}
+a {
+	color: black;
+	text-decoration: none;
+  padding: 15px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,10 +119,53 @@ p {
     justify-content: space-evenly;
 }
 
+.box {
+    flex-grow: 1;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 15px; 
+    line-height: 50px;
+  }
+  .box:nth-child(1) {
+    background: teal;
+  }
+  
+  .box:nth-child(2) {
+    background: gold;
+  }
+  
+  .box:nth-child(3) {
+    background: cadetblue;
+  }
+  .box:nth-child(4) {
+    background: coral;
+  }
+  .box:nth-child(5) {
+    background: crimson;
+  }
+  .box:nth-child(6) {
+    background: forestgreen;
+  }
+  .box:nth-child(7) {
+    background: darkorchid;
+  }
+  .box:nth-child(8) {
+    background: hotpink;
+  }
+  .box:nth-child(9) {
+    background: indigo;
+  }
+  .box:nth-child(10) {
+    background: dodgerblue;
+  }
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -136,7 +197,7 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 5px 2%;
     font-size: 14px;
 }
 
